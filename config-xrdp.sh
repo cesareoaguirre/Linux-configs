@@ -1,6 +1,6 @@
 # shell para configurar xrdp en Linux
 # Para ahorrarme pasos al configurar mis virtualizados en WSL2
-
+# 2020 agosto 6 0734
 sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bkp
 sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
 sudo sed -i 's/max_bpp=32/# max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini
